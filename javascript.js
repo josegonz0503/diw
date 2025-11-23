@@ -4,7 +4,7 @@ const slider = document.getElementById('slider');
 const slides = slider.children;
 const totalSlides = slides.length;
 
-/* ✅ SLIDER SOLO CON FLECHAS */
+/*  SLIDER SOLO CON FLECHAS */
 function updateSlider() {
     slider.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
@@ -16,7 +16,7 @@ function moveSlide(direction) {
     updateSlider();
 }
 
-/* ✅ MENÚ LATERAL */
+/*  MENÚ LATERAL */
 const menu = document.getElementById('menuLateral');
 const abrirMenu = document.querySelector('.menu-toggle');
 const cerrarMenu = document.getElementById('cerrarMenu');
@@ -36,7 +36,7 @@ document.addEventListener('click', (e) => {
     }
 });
 
-/* ✅ ACORDEÓN DEL MENÚ */
+/*  ACORDEÓN DEL MENÚ */
 const categorias = document.querySelectorAll(".categoria");
 
 categorias.forEach(categoria => {

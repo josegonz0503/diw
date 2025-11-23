@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VoidWear - Home</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -19,9 +19,7 @@
     </div>
 </header>
 
-<!-- ✨ MENÚ LATERAL CON CATEGORÍAS -->
- 
-<!-- ✨ MENÚ LATERAL CON ACORDEÓN -->
+
 <nav class="menu-lateral" id="menuLateral">
     <button class="cerrar-menu" id="cerrarMenu">×</button>
 
@@ -63,7 +61,6 @@
 
 </header>
 
-<!-- ✨ MENÚ LATERAL DESPLEGABLE (JS) -->
 <nav class="menu-lateral" id="menuLateral">
     <button class="cerrar-menu" id="cerrarMenu">X</button>
     <a href="#">Hombre</a>
@@ -72,7 +69,6 @@
     <a href="#">Ofertas</a>
 </nav>
 
-<!-- BÚSQUEDA + FILTROS -->
 <div class="busqueda">
     <img class="icono" src="icons/lupa.png" alt="Buscar">
     <input type="text" id="searchBar" placeholder="Buscar productos">
@@ -81,12 +77,12 @@
 
 
 
-<!-- PANEL FILTRO MÓVIL -->
 <div class="filtro-panel" id="filtroPanel">
     <div class="filtro-contenido">
 
         <h3>Filtrar por</h3>
 
+        *9+6
         <div class="filtro-grupo">
             <h4>Precio</h4>
             <label><input type="checkbox"> Menos de 20€</label>
@@ -117,12 +113,10 @@
 
 
 <div class="contenedor-pagina">
-    <!-- 📌 SIDEBAR FILTROS (solo PC) -->
    <aside class="sidebar" id="sidebarFiltros">
     
     <h3>Filtros</h3>
 
-    <!-- 🔹 PRECIO -->
     <div class="sidebar-grupo">
         <h4>Precio</h4>
         <label><input type="checkbox" class="filtro" value="menos20"> Menos de 20€</label>
@@ -130,7 +124,6 @@
         <label><input type="checkbox" class="filtro" value="mas40"> Más de 40€</label>
     </div>
 
-    <!-- 🔹 CATEGORÍA -->
     <div class="sidebar-grupo">
         <h4>Categoría</h4>
         <label><input type="checkbox" class="filtro" value="camisetas"> Camisetas</label>
@@ -139,7 +132,6 @@
         <label><input type="checkbox" class="filtro" value="accesorios"> Accesorios</label>
     </div>
 
-    <!-- 🔹 TALLA -->
     <div class="sidebar-grupo">
         <h4>Talla</h4>
         <label><input type="checkbox" class="filtro" value="xs"> XS</label>
@@ -149,13 +141,11 @@
         <label><input type="checkbox" class="filtro" value="xl"> XL</label>
     </div>
 
-    <!-- 🔘 Botón visual -->
     <button class="btn-aplicar-filtros">Aplicar Filtros</button>
 
 </aside>
 
     <main>
-        <!-- SLIDER -->
         <section class="especial">
     <div class="slider-header">
         Aquí se explica la oferta o lo especial
@@ -246,13 +236,15 @@
     </div>
 </section>
 
-        <!-- GRID DE PRODUCTOS -->
         <section class="productos">
             <h2>Novedades</h2>
             <div class="grid-productos">
 
     <div class="product-card">
+                          <a href="detalle.html">
+
         <img src="imgs/slide1.jpg" class="producto-imagen">
+                          </a>
         <h3>Camiseta Amanecer</h3>
 
         <div class="producto-inferior">
@@ -273,7 +265,10 @@
     </div>
 
     <div class="product-card">
+                                  <a href="detalle.html">
+
         <img src="imgs/slide2.jpg" class="producto-imagen">
+                                  </a>
         <h3>Sudadera Nocturna</h3>
 
         <div class="producto-inferior">
@@ -294,7 +289,10 @@
     </div>
 
     <div class="product-card">
+                                          <a href="detalle.html">
+
         <img src="imgs/slide3.jpg" class="producto-imagen">
+                                          </a>
         <h3>Chaqueta Estrella</h3>
 
         <div class="producto-inferior">
